@@ -13,7 +13,7 @@ export default function NavBar() {
       <div className="border-2 border-gray-300 rounded-xl">
         <div className="flex items-center gap-1 w-full h-full rounded-xl">
           <input className="outline-none pl-2 rounded-xl" type="text" />
-          <SearchIcon className="cursor-pointer text-indigo-500  w-[25px] h-[25px]" />
+          <SearchIcon className="cursor-pointer text-indigo-500 " />
         </div>
       </div>
       <div>
