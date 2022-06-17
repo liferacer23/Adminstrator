@@ -22,7 +22,11 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': '2px 2px 10px rgba(0,0,0,0.1)',
+      }
+    },
   },
   plugins: [],
 }

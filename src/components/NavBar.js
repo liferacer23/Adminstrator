@@ -9,11 +9,11 @@ import avatar from "../Images/avatar.jpg"
 
 export default function NavBar() {
   return (
-    <div className="w-full flex items-center justify-between p-2 h-12">
-      <div className="border-2 border-gray-300">
-        <div className="flex items-center gap-1 w-full h-full">
-          <input className="outline-none pl-2" type="text" />
-          <SearchIcon className="cursor-pointer text-indigo-500" />
+    <div className="px-8 md:w-full flex xs:w-screen md:flex-row xs:flex-col xs:h-24 xs:items-center items-center justify-between p-2 md:h-12">
+      <div className="border-2 border-gray-300 rounded-xl">
+        <div className="flex items-center gap-1 w-full h-full rounded-xl">
+          <input className="outline-none pl-2 rounded-xl" type="text" />
+          <SearchIcon className="cursor-pointer text-indigo-500  w-[25px] h-[25px]" />
         </div>
       </div>
       <div>
