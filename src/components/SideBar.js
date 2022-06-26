@@ -64,7 +64,7 @@ export default function SideBAr() {
       }));
       
   return (
-    <div className="xs:absolute -left-[200px] border-r-2  lg:static h-screen w-1/6 p-2 flex flex-col space-y-2 bg-white">
+    <div className="xs:absolute -left-[200px] border-r-2  lg:sticky lg:top-0 h-screen w-1/6 p-2 flex flex-col space-y-2 bg-white">
       {/*  Logo  Section */}
       <div className="text-indigo-500 text-indigo-500w-full h-8 flex justify-center items-center font-[800] text-xl">
         Admin
